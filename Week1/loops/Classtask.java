@@ -1,7 +1,7 @@
 package Week1.loops;
 
 import java.util.Arrays;
-import java.util.Scanner;
+// import java.util.Scanner;
 
 public class Classtask {
     public static void main(String[] args) {
