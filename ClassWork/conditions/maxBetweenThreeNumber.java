@@ -1,4 +1,4 @@
-package Week1.conditions;
+package ClassWork.conditions;
 
 import java.util.Scanner;
 
