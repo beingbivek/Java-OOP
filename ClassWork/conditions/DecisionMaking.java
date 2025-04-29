@@ -1,3 +1,5 @@
+package ClassWork.conditions;
+
 public class DecisionMaking {
     public static void main(String[] args) {
         int i = 5;

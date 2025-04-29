@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import simpleInterest;
 
 public class squareAreaAndPerimeterWIthOtherPrograms {
     public static void main(String[] args) {

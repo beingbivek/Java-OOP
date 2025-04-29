@@ -1,4 +1,4 @@
-package Week1.revisiontask;
+package ClassWork.revisiontask;
 
 import java.util.Scanner;
 

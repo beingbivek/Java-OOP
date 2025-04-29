@@ -1,4 +1,4 @@
-package Week1.conditions;
+package ClassWork.conditions;
 
 public class gpaValue {
     public static void main(String[] args) {

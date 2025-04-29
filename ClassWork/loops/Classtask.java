@@ -1,4 +1,4 @@
-package Week1.loops;
+package ClassWork.loops;
 
 import java.util.Arrays;
 // import java.util.Scanner;
