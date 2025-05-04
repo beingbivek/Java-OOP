@@ -3,36 +3,20 @@ package ClassWork.Methods.Methodnewtask;
 import java.util.Scanner;
 
 class KaprekarNumber {
-    static int divideIntIntoHalves(int num,int index){
-        while (num!=0) {
-            
-        }
-        return num;
+    static int convertIntToString(String num){
+        return Integer.valueOf(num);
     }
     static boolean isKaprekar(int num){
-        int squareNum = num * num;
-        int lengthOfSquareNum = String.valueOf(squareNum).length();
-        if(lengthOfSquareNum % 2 == 0){
-            int halfLength = lengthOfSquareNum / 2;
-            int firstHalf = 0;
-            int secondHalf = 0;
-            int count = 0;
-            while(squareNum!=0){
-                if(count < halfLength){
-                    firstHalf = firstHalf + squareNum % 10;
-                    count++;
-                    squareNum /= 10;
-                }else{
-                    secondHalf = secondHalf * 10 + squareNum % 10;
-                    count++;
-                    squareNum /= 10;
-                }
-            }
-            System.out.println(firstHalf);
-            System.out.println(secondHalf);
-
-        }
-        return false;
+        String squareNum = String.valueOf(num*num);
+        int lengthOfSquareNum = squareNum.length();
+        // if(lengthOfSquareNum % 2 == 0){
+        int halfLength = lengthOfSquareNum / 2;
+        String firstHalf = squareNum.substring(0, halfLength);
+        String secondHalf = squareNum.substring(halfLength, lengthOfSquareNum);
+        int sum = convertIntToString(firstHalf) + convertIntToString(secondHalf);
+        return (sum == num) ? true : false;
+        // }
+        // return false;
     }
 
     public static void main(String[] args) {
