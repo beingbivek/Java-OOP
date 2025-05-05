@@ -1,8 +1,14 @@
 package ClassWork.conditions;
 
-public class gpaValue {
+import java.util.Scanner;
+
+public class GpaValue {
     public static void main(String[] args) {
-        switch (args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter your ");
+        double value = sc.nextDouble();
+        sc.close();
+        switch (value) {
             case value:
                 
                 break;
