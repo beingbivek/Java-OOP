@@ -26,7 +26,7 @@ import java.util.Scanner;
 // array1.length; correct
 // array1.length(); incorrect
  
-public class ClassExcercise {
+public class ArrayExcersice {
     public static void main(String[] args) {
         int[] array1 = new int[5];
         // int[] array2 = {1,2,3,4,5};
