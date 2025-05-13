@@ -29,7 +29,7 @@ import java.util.Scanner;
 public class ClassExcercise {
     public static void main(String[] args) {
         int[] array1 = new int[5];
-        int[] array2 = {1,2,3,4,5};
+        // int[] array2 = {1,2,3,4,5};
         // array1[5]=2; ArrayIndexOutOfBoundsException
         // System.out.println(array1+" "+array2);
         int len = array1.length;
