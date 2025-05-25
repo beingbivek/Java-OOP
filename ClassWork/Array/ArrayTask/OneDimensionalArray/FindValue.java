@@ -12,5 +12,6 @@ public class FindValue {
         Boolean isfound = false;
         for(int val:arr) if (val == n) isfound = true;
         if(isfound) System.out.println("Number Found!");
+        else System.out.println("Not Found");
     }
 }
