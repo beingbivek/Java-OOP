@@ -1,4 +1,4 @@
-package NewJavaTask;
+package NewJavaTask.Encapsulation;
 
 public class Product {
     private String productName;

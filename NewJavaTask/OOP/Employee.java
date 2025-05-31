@@ -1,4 +1,4 @@
-package NewJavaTask;
+package NewJavaTask.OOP;
 
 public class Employee {
     private String empName;
