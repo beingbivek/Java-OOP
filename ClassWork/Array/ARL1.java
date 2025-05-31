@@ -1,6 +1,7 @@
+package ClassWork.Array;
 
 import java.util.ArrayList;
-import java.util.Arrays;
+// import java.util.Arrays;
 
 public class ARL1 {
     public static void main(String[] args) {
@@ -40,7 +41,7 @@ public class ARL1 {
         arr.add(2);
         arr.add(3);
         arr.set(1, 3);
-        return arr;
+        return arr;
     }
 
 }

@@ -26,6 +26,6 @@ public class ArrayListRevision {
             System.out.println(val);
         }
         methodName(list);
-        ArrayList<Integer> list2 = methodName(list);
+        // ArrayList<Integer> list2 = methodName(list);
     }
 }

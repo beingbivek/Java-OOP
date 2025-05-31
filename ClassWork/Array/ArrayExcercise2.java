@@ -35,7 +35,7 @@ public class ArrayExcercise2 {
         Scanner sc = new Scanner(System.in);
         // int[] array1 = {1,2,3,4,5};
         int[] newArray = arrayMethod();
-        int length = lengthArray(newArray);
+        // int length = lengthArray(newArray);
         printArray(newArray);
 
         // 2D Array

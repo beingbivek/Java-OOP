@@ -35,10 +35,14 @@ public class ConstructorsJava{
 
 class UsingConstructor {
     public static void main(String[] args) {
+        @SuppressWarnings("unused")
         ConstructorsJava obj1 = new ConstructorsJava();
         ConstructorsJava obj2 = new ConstructorsJava(1);
+        @SuppressWarnings("unused")
         ConstructorsJava obj3 = new ConstructorsJava(12, 2);
+        @SuppressWarnings("unused")
         ConstructorsJava obj4 = new ConstructorsJava("Hello");
+        @SuppressWarnings("unused")
         ConstructorsJava obj5 = new ConstructorsJava(obj2);
     }
 }
