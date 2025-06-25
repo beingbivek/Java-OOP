@@ -88,10 +88,31 @@ class QueueManagementSystem{
             char choice = sc.next().charAt(0);
             switch (choice) {
                 case 'a':
-                    String customeString =  
+                    System.out.println("Enter Customer Name: ");
+                    String customerString =  sc.nextLine();
+                    customerQueue.addCustomer(customerString);
                     break;
+                
+                case 'b':
+                    System.out.println("Serving Customer: ");
+                    System.out.println(customerQueue.serveCustomer());
+                    break;
+
+                case 'c':
+                    System.out.println("The Next Customer is: ");
+                    System.out.println(customerQueue.currentCustomer());
+                    break;
+
+                case 'd':
+                    System.out.println("The number of customers in line: ");
+                    System.out.println(customerQueue.queueSize());
+                    break;
+
+                case 'e':
+                    runProgram = false;
             
                 default:
+                    System.out.println("Invalid Input Given!");
                     break;
             }
             sc.close();
